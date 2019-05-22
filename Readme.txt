@@ -1,3 +1,5 @@
+This is the readme file
+
 This software package titled: JISR, performs 2D and 3D joint image segmentation and registration for a pair of images, either synthetic or medical, which are of the same size. The user should put the images in the images 2D and images3D folder while running the code. 
 
 The code is tested with the MATLAB 2018a version. Some functions use parallelization to accelerate computation. This is done by using "parfor" loops. Also, we have use mex functions that are automatically generated from the .m file using the Matlab Coder toolbox. The compiled .mex files and the original .m files are both provided. 
